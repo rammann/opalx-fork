@@ -1,12 +1,10 @@
 set (_SRCS
     EndFieldModel.cpp
-    Enge.cpp
     Tanh.cpp 
     )
 
 set (HDRS
     EndFieldModel.h
-    Enge.h
     Tanh.h
     )
 
