@@ -12,7 +12,6 @@ set (_SRCS
   H5PartWrapper.cpp
   H5PartWrapperForPT.cpp
   MonitorStatisticsWriter.cpp
-  IpplInfoWrapper.cpp
   H5Writer.cpp
   MeshGenerator.cpp       
   LBalWriter.cpp
@@ -38,7 +37,6 @@ set (HDRS
     BinningCmd.h
     H5PartWrapperForPT.h
     H5PartWrapper.h
-    IpplInfoWrapper.h
     MonitorStatisticsWriter.h
     H5Writer.h
     MeshGenerator.h
@@ -54,8 +52,6 @@ set (HDRS
 
 if (UNIX AND NOT APPLE)
     # for Linux, BSD, Solaris, Minix
-    list (APPEND _SRCS MemoryProfiler.cpp)
-    list (APPEND HDRS MemoryProfiler.h)
 endif()
 
 target_include_directories(opalx PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})

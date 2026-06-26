@@ -3,9 +3,6 @@ set (_SRCS
     CLRangeError.cpp
     BeamlineFieldElement.cpp
     ExpressionRandom.cpp
-    ComplexErrorFun.cpp
-    ConvergenceError.cpp
-    DivideError.cpp
     DomainError.cpp
     FormatError.cpp
     GeneralOpalException.cpp
@@ -38,7 +35,6 @@ set (_SRCS
     RingSection.cpp
     SDDSParser.cpp
     OpalException.cpp
-    OpalFilter.cpp
     RegularExpression.cpp
     Timer.cpp
     AbstractSpline.cpp
@@ -51,9 +47,6 @@ set (HDRS
     CLRangeError.h
     BeamlineFieldElement.h
     ExpressionRandom.h
-    ComplexErrorFun.h
-    ConvergenceError.h
-    DivideError.h
     DomainError.h
     FormatError.h
     GeneralOpalException.h
@@ -87,7 +80,6 @@ set (HDRS
     RingSection.h  
     Util.h
     OpalException.h
-    OpalFilter.h
     RegularExpression.h
     Timer.h
     AbstractSpline.h

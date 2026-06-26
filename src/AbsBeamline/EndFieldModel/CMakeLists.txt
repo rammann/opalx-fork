@@ -2,14 +2,12 @@ set (_SRCS
     EndFieldModel.cpp
     Enge.cpp
     Tanh.cpp 
-    AsymmetricEnge.cpp
     )
 
 set (HDRS
     EndFieldModel.h
     Enge.h
     Tanh.h
-    AsymmetricEnge.h
     )
 
 # Add local include directory

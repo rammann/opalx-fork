@@ -1,6 +1,5 @@
 set (_SRCS
     Interpolator3dGridTo1d.cpp
-    Interpolator3dGridTo3d.cpp
     Mesh.cpp
     MMatrix.cpp
     MVector.cpp
@@ -15,7 +14,6 @@ set (_SRCS
 
 set (HDRS
     Interpolator3dGridTo1d.h
-    Interpolator3dGridTo3d.h
     Mesh.h
     MMatrix.h
     MVector.h

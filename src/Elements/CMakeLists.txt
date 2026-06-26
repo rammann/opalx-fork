@@ -38,7 +38,6 @@ set (HDRS
     OpalQuadrupole.h
     OpalRBend.h
     OpalSBend.h
-    OpalSource.h
     OpalSolenoid.h
     OpalTravelingWave.h
     OpalRingDefinition.h
